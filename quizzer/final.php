@@ -17,6 +17,7 @@
       	   <h2>You're Done!</h2>
       	   <p>Congrats! You have Completed The Test</p>
       	   <p>Final Score: <?php echo $_SESSION['score']; ?></p>
+               <?php  $_SESSION['score'] = 0; ?>
       	   <a href="question.php?n=1" class="start">Take Again</a>
       	</div>
       </main>
